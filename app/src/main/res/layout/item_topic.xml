@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <data>
+        <variable
+            name="dataTopic"
+            type="com.tuyenhoang.appdoctruyenjsoupv2.ItemTopic" />
+    </data>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_marginTop="3dp"
+    android:layout_marginBottom="3dp"
+    android:layout_height="wrap_content">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="20dp"
+        android:layout_margin="6dp"
+
+        app:cardElevation="20dp"
+        tools:ignore="MissingConstraints">
+        <TextView
+            android:id="@+id/tv_theloai"
+            android:layout_width="match_parent"
+            android:textSize="30sp"
+            android:paddingStart="20dp"
+            android:paddingTop="24dp"
+            android:paddingBottom="24dp"
+            android:textColor="@color/white"
+            android:background="@color/purple_500"
+            android:text="@{dataTopic.topic,default=`Thể loại`}"
+            android:layout_height="wrap_content"
+            tools:ignore="RtlSymmetry" />
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

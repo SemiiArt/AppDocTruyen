@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable
+            name="itemStory"
+            type="com.tuyenhoang.appdoctruyenjsoupv2.ItemStory" />
+    </data>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="match_parent">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/item_story_image"
+                android:layout_width="100dp"
+                android:src="@drawable/img"
+                android:padding="5dp"
+                loadImage="@{itemStory.linkImage}"
+                android:layout_marginStart="10dp"
+                android:layout_height="100dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginStart="10dp"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/item_story_tv1"
+                    android:layout_width="wrap_content"
+                    android:text="@{itemStory.title,default=`Tên truyện`}"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="5dp"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/item_story_tv2"
+                    android:layout_width="wrap_content"
+                    android:text="@{itemStory.content,default=`Nội dung`}"
+                    android:lines="2"
+                    android:layout_marginStart="5dp"
+                    android:textSize="17sp"
+                    android:textColor="@color/black"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

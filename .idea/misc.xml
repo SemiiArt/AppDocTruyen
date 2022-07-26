@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/T3H/Android/AppDocTruyenJsoupV2/app/src/main/res/layout/activity_list_story.xml" value="0.1" />
+        <entry key="..\:/T3H/Android/AppDocTruyenJsoupV2/app/src/main/res/layout/activity_login.xml" value="0.31197916666666664" />
+        <entry key="..\:/T3H/Android/AppDocTruyenJsoupV2/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/T3H/Android/AppDocTruyenJsoupV2/app/src/main/res/layout/activity_sign_up.xml" value="0.31197916666666664" />
+        <entry key="..\:/T3H/Android/AppDocTruyenJsoupV2/app/src/main/res/layout/activity_story.xml" value="0.1" />
+        <entry key="..\:/T3H/Android/AppDocTruyenJsoupV2/app/src/main/res/layout/item_story.xml" value="0.1415237134207871" />
+        <entry key="..\:/T3H/Android/AppDocTruyenJsoupV2/app/src/main/res/layout/item_stpry.xml" value="0.31197916666666664" />
+        <entry key="..\:/T3H/Android/AppDocTruyenJsoupV2/app/src/main/res/layout/item_topic.xml" value="0.22935779816513763" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1084692738511",
+    "project_id": "testlogin-bec53",
+    "storage_bucket": "testlogin-bec53.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1084692738511:android:77377aa52d4737c61b22ba",
+        "android_client_info": {
+          "package_name": "com.tuyenhoang.appdoctruyenjsoupv2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1084692738511-9kinlsciu7hnhaam8u2190qf9cil80l7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsPIV6y9ZXQsL0LOm1VIc0ILgcOGbHcPA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1084692738511-9kinlsciu7hnhaam8u2190qf9cil80l7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
